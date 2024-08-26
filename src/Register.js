@@ -47,6 +47,7 @@ function Register() {
             />
             {errors.name && <span className='text-danger'>{errors.name}</span>}
           </div>
+
           <div className='mb-3'>
             <label htmlFor='dob'>Birthday</label>
             <input
